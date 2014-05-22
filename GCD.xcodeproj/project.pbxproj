@@ -21,6 +21,8 @@
 		1B881031192DADA5004AFA06 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B881013192DADA5004AFA06 /* UIKit.framework */; };
 		1B881039192DADA5004AFA06 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1B881037192DADA5004AFA06 /* InfoPlist.strings */; };
 		1B88103B192DADA5004AFA06 /* GCDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B88103A192DADA5004AFA06 /* GCDTests.m */; };
+		1B881046192DFBAC004AFA06 /* ConcurrentQueue.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B881044192DFBAC004AFA06 /* ConcurrentQueue.png */; };
+		1B881047192DFBAC004AFA06 /* Concurrency.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B881045192DFBAC004AFA06 /* Concurrency.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		1B881036192DADA5004AFA06 /* GCDTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GCDTests-Info.plist"; sourceTree = "<group>"; };
 		1B881038192DADA5004AFA06 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1B88103A192DADA5004AFA06 /* GCDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDTests.m; sourceTree = "<group>"; };
+		1B881044192DFBAC004AFA06 /* ConcurrentQueue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ConcurrentQueue.png; sourceTree = "<group>"; };
+		1B881045192DFBAC004AFA06 /* Concurrency.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Concurrency.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +130,8 @@
 		1B881016192DADA5004AFA06 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1B881044192DFBAC004AFA06 /* ConcurrentQueue.png */,
+				1B881045192DFBAC004AFA06 /* Concurrency.png */,
 				1B881017192DADA5004AFA06 /* GCD-Info.plist */,
 				1B881018192DADA5004AFA06 /* InfoPlist.strings */,
 				1B88101B192DADA5004AFA06 /* main.m */,
@@ -228,6 +234,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B881046192DFBAC004AFA06 /* ConcurrentQueue.png in Resources */,
+				1B881047192DFBAC004AFA06 /* Concurrency.png in Resources */,
 				1B881028192DADA5004AFA06 /* Images.xcassets in Resources */,
 				1B88101A192DADA5004AFA06 /* InfoPlist.strings in Resources */,
 				1B881023192DADA5004AFA06 /* Main.storyboard in Resources */,
