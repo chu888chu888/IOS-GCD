@@ -28,6 +28,8 @@
 
 **Concurrency vs Parallelism 并发与并行**
 
+![image ](https://raw.githubusercontent.com/z55heihei/GCD/master/GCD/Concurrency.png)
+
 为了实现并行来同时执行多个线程，先运行一个线程，执行一个上下文切换，然后运行另一个线程或进程。
 如果你想深入此主题，看看[this excellent talk by Rob Pike ](http://vimeo.com/49718712)
 
