@@ -61,6 +61,31 @@ Dispatch Group 会在整个组的任务都完成时通知你。这些任务可�
 4. dispatch_group_notify 以异步的方式工作。当 Dispatch Group 中没有任何任务时，它就会执行其代码，那么 completionBlock 便会运行。你还指定了运行 completionBlock 的队列，此处，主队列就是你所需要的。
 对于这个特定的工作，上面的处理明显更清晰，而且也不会阻塞任何线程。
 
+**GCD的好处**
+
+1. 高效 - More CPU cycles available for your code
+2. 使用方便
+- Blocks are easy to use
+- Queues are inherently producer/consumer
+3. Systemwide perspective
+- Only the OS can balance unrelated subsystems
+
+**兼容性**
+
+1. Existing threading and synchronization primitives are 100% compatible
+2. GCD threads are wrapped POSIX threads
+- Do not cancel, exit, kill, join, or detach GCD threads
+3. GCD reuses threads
+- Restore any per-thread state changed within a block
+
+**多线程**
+
+**锁定资源**
+
+1. 对关键资源进行互斥访问。
+2. 在线程中按序访问共享资源。
+3. Ensure data integrity
+
 **Support**
 
 [Apple Development Guide](https://developer.apple.com/library/mac/documentation/general/conceptual/concurrencyprogrammingguide/OperationQueues/OperationQueues.html#//apple_ref/doc/uid/TP40008091-CH102-SW1)
