@@ -63,6 +63,6 @@ Dispatch Group 会在整个组的任务都完成时通知你。这些任务可�
 
 **Support**
 
-[apple Development Guide](https://developer.apple.com/library/mac/documentation/general/conceptual/concurrencyprogrammingguide/OperationQueues/OperationQueues.html#//apple_ref/doc/uid/TP40008091-CH102-SW1)
+[Apple Development Guide](https://developer.apple.com/library/mac/documentation/general/conceptual/concurrencyprogrammingguide/OperationQueues/OperationQueues.html#//apple_ref/doc/uid/TP40008091-CH102-SW1)
 
 
