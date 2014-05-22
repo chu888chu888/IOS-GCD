@@ -35,6 +35,8 @@
 
 **Serial Queues 串行队列**
 
+![image](https://raw.githubusercontent.com/z55heihei/GCD/master/GCD/ConcurrentQueue.png)
+
 一次只执行一个任务，并且按照我们添加到队列的顺序来执行。
 
 **Concurrent Queues 并发队列**
