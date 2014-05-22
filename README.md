@@ -60,3 +60,6 @@ Dispatch Group 会在整个组的任务都完成时通知你。这些任务可�
 3. 同样的 leave 方法，也没做任何修改。
 4. dispatch_group_notify 以异步的方式工作。当 Dispatch Group 中没有任何任务时，它就会执行其代码，那么 completionBlock 便会运行。你还指定了运行 completionBlock 的队列，此处，主队列就是你所需要的。
 对于这个特定的工作，上面的处理明显更清晰，而且也不会阻塞任何线程。
+
+**Support**
+[apple Development Guide](https://developer.apple.com/library/mac/documentation/general/conceptual/concurrencyprogrammingguide/OperationQueues/OperationQueues.html#//apple_ref/doc/uid/TP40008091-CH102-SW1)
